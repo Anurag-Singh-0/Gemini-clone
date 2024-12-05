@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+  .header :is(.title, .subtitle) {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
+
+  .header .subtitle {
+    font-size: 1.7rem;
+  }
+
+  .chat-list .message .logo {
+    width: 37px;
+    height: 37px;
+  }
+
+  .search-box :where(.search-form, .action-button) {
+    gap: 0.4rem;
+  }
+
+  .search-box .icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .search-form #user-input {
+    padding: 1.1rem 3.5rem 1.1rem 1.2rem;
+  }
+
+  .search-form .input-wrapper {
+    height: 50px;
+  }
+
+  .search-box .disclaimer-text {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .chat-list{
+    margin: 0;
+  }
+}
